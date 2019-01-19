@@ -142,12 +142,12 @@ https://storage.googleapis.com/skaffold/builds/latest/skaffold-windows-amd64.exe
 1. Change to the `examples/getting-started` directory.
 
     ```
-    cd examples/getting-started
+    cd examples/getting-started --default-repo gcr.io/[PROJECT-ID]
     ```
   
 ## `skaffold dev`: Build and deploy your app every time your code changes
 
-Run command `skaffold dev` to build and deploy your app continuously. You should
+Run command `skaffold dev ` to build and deploy your app continuously. You should
 see some outputs similar to the following entries:
 
 ```bash
